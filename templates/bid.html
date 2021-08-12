@@ -1,0 +1,23 @@
+
+                  
+                  
+                  
+                  
+                    <tr class="text-gray-700 dark:text-gray-400">
+                      <td class="px-4 py-3">
+                        <div class="flex items-center text-sm">
+                          <div>
+                            <p class="font-semibold">{{tender.tender_name}}</p>
+                            <p class="text-xs text-gray-600 dark:text-gray-400">
+                              {{tender.tender_description|truncatechars:80}}
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="px-4 py-3 text-sm">
+                        {{tender.start_date}}
+                      </td>
+
+                      <td class="px-4 py-3 text-sm">
+                        {{tender.end_date}}
+                      </td>
